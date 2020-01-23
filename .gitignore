@@ -67,5 +67,8 @@ node_modules/
 # configs
 functions/config.json
 
+# *.env
+functions/sendgrid.env
+
 # VSCode
 .vscode
