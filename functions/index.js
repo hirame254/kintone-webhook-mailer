@@ -1,5 +1,4 @@
 const functions = require('firebase-functions').region('asia-northeast1')
-//const mailer = require('nodemailer')
 const kintoneJSSDK = require('@kintone/kintone-js-sdk')
 const Mustache = require('mustache')
 const config = require('./config.json')
