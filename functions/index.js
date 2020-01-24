@@ -157,7 +157,8 @@ exports.receiveKintoneRecords = functions.https.onCall(async (data, context) => 
         subject: template.subject,
         text: template.body,
       }
-      switch (template.smtpServer.value) {
+      console.info(template.smtpServer)
+      switch (template.smtpServer) {
         case '楽天':
           await sendMailToSmtp('rakuten', msg)
           break
